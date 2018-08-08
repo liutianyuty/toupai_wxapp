@@ -1,1 +1,24 @@
-<view>详情</view>
+<video src="{{videoContent}}"></video>
+<view class="info">
+    <view>
+        <image class="icon" src="http://img.v.cmcm.com/b5c287e6-a6d0-51f3-9223-a9fd55a1bc9b_crop_200x200.jpg"></image>
+    <text class="name">{{videoName}}</text>
+    </view>
+    <view class="title">{{videoTitle}}</view>
+    <view>
+        <image class="image_eye" src="../images/eyes.png"></image><text class="eye_num">12</text>
+    </view>
+</view>
+<view class="relateContent">
+    <view class="videoList" wx:for="{{relateContent}}">
+        <view class="videoLeft">
+            <image class="videoImg" src="{{item.videoImg}}"></image>
+        </view>
+        <view class="videoRight">
+            <text class="videoTitle">{{item.videoTitle}}</text>
+            <view class="videoInfo">
+                <image class="image_eye" src="../images/eyes.png"></image><text class="eye_num">{{item.eye_num}}</text>
+            </view>
+        </view>
+    </view>
+</view>

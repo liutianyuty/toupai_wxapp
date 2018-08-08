@@ -3,13 +3,25 @@
     "pages/home/home",
     "pages/detail/detail",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/subject/subject"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black",
     "navigationBarTitleText": "头牌"
-  }
+  },
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/home/home",
+            "text": "首页"
+        },
+        {
+            "pagePath": "pages/index/index",
+            "text": "我"
+        }
+    ]
+}
 }

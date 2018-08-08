@@ -21,15 +21,15 @@ Page({
         channel_data: [
             {
                 "video_id": "01",
-                "image_poster": "../images/1.jpg",
-                "title": "0离死神最近的傻缺集锦",
+                "image_poster": "http://img.v.cmcm.com/toupaicms/04a99131-1265-cafc-6c13-aab8ab47569c_crop_750x424.png",
+                "title": "IU - I Believe",
                 "view_eye_num": "13",
                 "view_comment_num": "12"
             },
             {
                 "video_id": "02",
-                "image_poster": "../images/2.jpg",
-                "title": "这才是真正的高手来自民间！！！",
+                "image_poster": "http://img.v.cmcm.com/0e0b0ca3-3cae-578b-b08f-b31cefa39fda_crop_750x424.jpg",
+                "title": "几十年前，刘德华与苏永康唱黄梅戏的画面，太经典了",
                 "view_eye_num": "23",
                 "view_comment_num": "22"
             },
@@ -41,22 +41,22 @@ Page({
             [
                 {
                     "video_id": "01",
-                    "image_poster": "../images/1.jpg",
-                    "title": "0离死神最近的傻缺集锦",
+                    "image_poster": "http://img.v.cmcm.com/toupaicms/04a99131-1265-cafc-6c13-aab8ab47569c_crop_750x424.png",
+                    "title": "IU - I Believe",
                     "view_eye_num": "13",
                     "view_comment_num": "12"
                 },
                 {
                     "video_id": "02",
-                    "image_poster": "../images/2.jpg",
-                    "title": "0这才是真正的高手来自民间！！！",
+                    "image_poster": "http://img.v.cmcm.com/0e0b0ca3-3cae-578b-b08f-b31cefa39fda_crop_750x424.jpg",
+                    "title": "几十年前，刘德华与苏永康唱黄梅戏的画面，太经典了",
                     "view_eye_num": "23",
                     "view_comment_num": "22"
                 },
             ],
              [
                 {
-                    "video_id": "12",
+                    "video_id": "02",
                     "image_poster": "../images/4.jpg",
                     "title": "1万梓良的心狠手辣VS徐锦江的威猛霸气，谁气场更爆表？",
                     "view_eye_num": "43",
@@ -65,7 +65,7 @@ Page({
             ],
              [
                 {
-                    "video_id": "21",
+                     "video_id": "02",
                     "image_poster": "../images/3.jpg",
                     "title": "2《封神传奇》黄晓明演绎杨戬 英姿勃发开天眼",
                     "view_eye_num": "53",
@@ -74,7 +74,7 @@ Page({
             ],
             [
                 {
-                    "video_id": "01",
+                    "video_id": "02",
                     "image_poster": "../images/1.jpg",
                     "title": "3离死神最近的傻缺集锦",
                     "view_eye_num": "13",
@@ -92,7 +92,7 @@ Page({
             ],
              [
                 {
-                    "video_id": "12",
+                    "video_id": "02",
                     "image_poster": "../images/4.jpg",
                     "title": "5万梓良的心狠手辣VS徐锦江的威猛霸气，谁气场更爆表？",
                     "view_eye_num": "43",
@@ -101,7 +101,7 @@ Page({
             ],
              [
                 {
-                    "video_id": "21",
+                    "video_id": "02",
                     "image_poster": "../images/3.jpg",
                     "title": "6《封神传奇》黄晓明演绎杨戬 英姿勃发开天眼",
                     "view_eye_num": "53",
