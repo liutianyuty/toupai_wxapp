@@ -13,13 +13,19 @@
     "navigationBarTitleText": "头牌"
   },
   "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f8403d",
     "list": [
         {
             "pagePath": "pages/home/home",
+            "iconPath": "pages/images/bar1.png",
+            "selectedIconPath": "pages/images/bar1s.png",
             "text": "首页"
         },
         {
             "pagePath": "pages/index/index",
+            "iconPath":"pages/images/bar2.png",
+            "selectedIconPath": "pages/images/bar2s.png",
             "text": "我"
         }
     ]

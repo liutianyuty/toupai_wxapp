@@ -10,7 +10,7 @@
     </view>
 </view>
 <view class="relateContent">
-    <view class="videoList" wx:for="{{relateContent}}">
+    <view class="videoList" wx:for="{{relateContent}}" bindtap='gotoDetail' data-videoid="{{item.videoId}}">
         <view class="videoLeft">
             <image class="videoImg" src="{{item.videoImg}}"></image>
         </view>
