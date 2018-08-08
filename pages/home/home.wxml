@@ -1,0 +1,18 @@
+<scroll-view scroll-x scroll-left="{{line.scrLeft}}" class="nav">
+    <block wx:for="{{nav}}" bindtap="changenav">
+        <text bindtap="changeNav" data-select="{{item.select}}" class="{{item.select == changeSelect ? 'active':''}} channel">{{item.navName}}</text>
+    </block>
+</scroll-view>
+<view class="content">
+<view class="area" wx:for="{{channel_data}}" bindtap="gotoDetail" data-videoid="{{item.video_id}}">
+    <view class="poster">
+        <image class="image_poster" src="{{item.image_poster}}"></image>
+        <image class="play_icon" src="../images/play.png"></image>
+    </view>
+    <view class="info">
+        <text class="title">{{item.title}}</text>
+        <view class="view_eye"><image class="image_eye" src="../images/eyes.png"></image><text>{{item.view_eye_num}}</text></view>
+        <view class="view_comment"><image class="image_comment" src="../images/comment.png"></image><text>{{item.view_comment_num}}</text></view>
+    </view>
+</view>
+</view>

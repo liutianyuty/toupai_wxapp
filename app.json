@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/home/home",
+    "pages/detail/detail",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -7,6 +9,7 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText": "头牌"
   }
 }

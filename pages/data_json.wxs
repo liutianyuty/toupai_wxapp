@@ -1,0 +1,31 @@
+var data_json={
+    "0":[
+        {
+            "image_poster":"images/1.jpg",
+            "title":"离死神最近的傻缺集锦",
+            "view_eye_num":"13",
+            "view_comment":"12"
+        },
+        {
+            "image_poster": "images/2.jpg",
+            "title": "这才是真正的高手来自民间！！！",
+            "view_eye_num": "23",
+            "view_comment": "22"
+        },
+    ],
+    "1": [
+        {
+            "image_poster": "images/3.jpg",
+            "title": "《封神传奇》黄晓明演绎杨戬 英姿勃发开天眼",
+            "view_eye_num": "33",
+            "view_comment": "32"
+        },
+        {
+            "image_poster": "images/4.jpg",
+            "title": "万梓良的心狠手辣VS徐锦江的威猛霸气，谁气场更爆表？",
+            "view_eye_num": "43",
+            "view_comment": "42"
+        },
+    ],
+}
+module.exports.data_json = data_json;
